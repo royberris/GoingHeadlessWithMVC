@@ -1,0 +1,17 @@
+﻿@model ContentDetailPage
+
+<h1>
+    @Model.Title
+</h1>
+
+<p>
+    @Model.IntroText
+</p>
+
+<p>
+    Category: @Model.Category
+</p>
+
+<p>
+    Published on: @Model.PublishDate.ToLongDateString();
+</p>
